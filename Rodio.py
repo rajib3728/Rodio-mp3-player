@@ -16,7 +16,7 @@ def bol():
     messagebox.showinfo("INFO","You need internet connection for this!")
     webbrowser.open("https://rajib3728.github.io/english/")
 def welso():
-    playsound("C:\\Users\\Rajib Kr paul\\OneDrive\\Documents\\visiual stdio code\\python practice\\song1.mp3")
+    playsound("song1.mp3")
 def link():
     webbrowser.open("https://sites.google.com/view/the-earth-infomation/home")    
 root = Tk()    
@@ -25,7 +25,7 @@ root.minsize(600,400)
 photo = PhotoImage(file = "logo.png")
 root.iconphoto(False, photo)
 root.title("Rajib paul")
-bg=ImageTk.PhotoImage(file="C:\\Users\Rajib Kr paul\\OneDrive\Documents\\visiual stdio code\\python practice\\b5.jpg")
+bg=ImageTk.PhotoImage(file="b5.jpg")
 bglb=Label(root,image=bg)
 bglb.place(x=0,y=0,height=900,width=1600)
 x = Label(root,text=" WELCOME TO THIS MP3 PLAYER",bg="black",padx="30",pady="20",font=("bold",40),fg="yellow")
